@@ -106,5 +106,5 @@ void main() {
 //     }
 //   }
 //   print("Кол-во слов :$words");
-//   print("Enb.");
+//   print("End.");
 // } (^ 5 zadanie)
