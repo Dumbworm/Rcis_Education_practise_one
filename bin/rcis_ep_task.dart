@@ -1,7 +1,7 @@
-import 'dart:math';
-import 'dart:io';
+// import 'dart:math';
+// import 'dart:io';
 
-void main() {
+// void main() {
 //   int min = 11;
 //   int index = 0;
 //   List<int> nums = List.generate(10, (i) => (Random().nextInt(10)));
@@ -13,8 +13,9 @@ void main() {
 //     }
 //   }
 //   print(nums);
-//   print('Наименьший элемент: $index');
-// } (^ 1 zadanie)
+//   print('Наименьший элемент имеет индекс: $index')
+//}
+//                             ↑ zadanie 1 ↑
 //   List<int> mass = [];
 //   int num = 1;
 //   int sum = 0;
@@ -44,11 +45,14 @@ void main() {
 //     print('End.');
 //   }
 // } (^ 2 zadanie)
-//   List<String> mass = [];
+// import 'dart:math';
+// import 'dart:io';
+
+// void main() {
+//    List<String> mass = [];
 //   int num = 1;
 //   int max = 0;
 //   int min = 0;
-//   try {
 //     while (num != 0) {
 //       stdout.write('Введите число в массив: ');
 //       String a = stdin.readLineSync()!;
@@ -66,13 +70,14 @@ void main() {
 //       }
 //     }
 //     print(mass);
-//     print(
-//         '${mass[min]}- Самый короткий элемент \n${mass[max]} - Самый длинный элемент');
-//   } finally {
-//     print('End.');
-//   }
-// } (^ 3 zadanie)
-//   try {
+//     print('${mass[min]} - Самый короткий элемент \n${mass[max]} - Самый длинный элемент');
+// }
+//                                          ↑ zadanie 3 ↑
+// import 'dart:math';
+// import 'dart:io';
+
+// void main() {
+//  try {
 //     stdout.write('Введите минимальный порог: ');
 //     int min = int.parse(stdin.readLineSync()!);
 //     stdout.write('Введите максимальный порог: ');
@@ -90,8 +95,13 @@ void main() {
 // List<int> randtoMass(int min, int max) {
 //   List<int> rand = List.generate(10, (i) => Random().nextInt(max - min) + min);
 //   return rand;
-// } (^ 4 zadanie)
-//   List<String> mass = [];
+//   }
+//                                          ↑ zadanie 4 ↑
+// import 'dart:math';
+// import 'dart:io';
+
+// void main() {
+// List<String> mass = [];
 //   print("Start.");
 //   stdout.write('Введите строку: ');
 //   String a = stdin.readLineSync()!;
@@ -105,6 +115,7 @@ void main() {
 //       break;
 //     }
 //   }
-//   print("Кол-во слов :$words");
+//   print("Кол-во слов: $words");
 //   print("End.");
-// } (^ 5 zadanie)
+// }
+//                                          ↑ zadanie 5 ↑
