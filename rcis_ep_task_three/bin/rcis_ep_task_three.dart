@@ -3,9 +3,6 @@ import 'dart:convert';
 import 'dart:async';
 
 void main() async {
-  
- 
- 
 //   String nums = "";
 //   List<int> lots = [];
 //   int i = 1;
